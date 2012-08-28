@@ -11,17 +11,17 @@ traversing, event handling, animating, and Ajax interactions for rapid web
 development. jQuery is designed to change the way that you write JavaScript.
 See http://jquery.com/ for more details.
 
-The syntax file for Vim add some colorations for jQuery keywords (empty clone
-hasClass hide show animate ...) and for CSS selectors (:empty :hidden :selected
-:first ...).
+The syntax file for Vim add some colorations for jQuery keywords (`empty`,
+`clone`, `hasClass`, `hide`, `show`, `animate`, ...) and for CSS selectors
+(`:empty`, `:hidden`, `:selected`, `:first`, ...).
 
 
 Install
 -------
 
-Use Vundle to install. Just add `Bundle scottmcginness/vim-jquery` to your
-`.vimrc`, then run `:BundleInstall within vim. See
-[Vundle](https://github.com/gmarik/vundle) for more details
+Use [Vundle](https://github.com/gmarik/vundle) to install. Just add
+`Bundle 'scottmcginness/vim-jquery'` to your `.vimrc`, then run
+`:BundleInstall` within vim.
 
 
 Credits
