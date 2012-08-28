@@ -19,10 +19,9 @@ hasClass hide show animate ...) and for CSS selectors (:empty :hidden :selected
 Install
 -------
 
-Copy the `syntax/jquery.vim` file to `$HOME/.vim/syntax/`
-and add the following line to your vimrc:
-
-    au BufRead,BufNewFile jquery.*.js set ft=javascript syntax=jquery
+Use Vundle to install. Just add `Bundle scottmcginness/vim-jquery` to your
+`.vimrc`, then run `:BundleInstall within vim. See
+[Vundle](https://github.com/gmarik/vundle) for more details
 
 
 Credits
